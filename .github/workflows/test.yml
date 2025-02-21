@@ -24,7 +24,7 @@ jobs:
         run: |
           uv --version
           python -V
-          uv pip install -e .[dev] -v
+          uv pip install .[dev] -v
         
       - name: Run tests
         run: pytest -v
