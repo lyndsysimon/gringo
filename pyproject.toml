@@ -17,5 +17,5 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.pytest.ini_options]
-testpaths = ["gringo/tests"]
+testpaths = ["tests"]
 python_files = ["test_*.py"]
